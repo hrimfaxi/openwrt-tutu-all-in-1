@@ -75,7 +75,10 @@ echo ">>> 按需安装 feeds 依赖（仅目标包及其递归依赖）..."
     tumgrd \
     luci-app-tumgrd \
     xtp-rs \
-    shadowquic
+    shadowquic \
+    sqlite3 \
+    ubus \
+    ubox
 
 # ============================================================
 # 4. 定义构建函数（自动附加 $MAKE_ARGS）
