@@ -78,7 +78,11 @@ echo ">>> 按需安装 feeds 依赖（仅目标包及其递归依赖）..."
     shadowquic \
     sqlite3 \
     ubus \
-    ubox
+    ubox \
+    libmnl \
+    libnetfilter-queue \
+    libnfnetlink \
+    luci-base
 
 # ============================================================
 # 4. 定义构建函数（自动附加 $MAKE_ARGS）
